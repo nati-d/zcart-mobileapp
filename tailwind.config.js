@@ -3,6 +3,10 @@ module.exports = {
   content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],  
   theme: {
     extend: {
+      colors:{
+        primary:'#FF4747',
+        secondary:'#FDB7B9',
+      },
       fontFamily: {
         obold: ["OpenSansBold","sans-serif"],
         oextrabold: ["OpenSansExtraBold","sans-serif"],
