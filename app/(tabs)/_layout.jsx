@@ -2,6 +2,7 @@ import { Image, Text, View } from "react-native";
 import React from "react";
 import { Tabs } from "expo-router";
 import icons from "../../constants/icons";
+import '../../constants/styles.css'
 
 export default function TabsLayout() {
   const TabIcon = ({ focused, icons, name }) => {
@@ -14,7 +15,7 @@ export default function TabsLayout() {
             height: 20,
             tintColor: focused ? "#f29da0" : "#7a7a7a",
           }}
-          className="border p-2 border-black"
+          className=""
         />
         <Text
           className={`text-xs font-oregular ${

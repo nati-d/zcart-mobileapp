@@ -6,6 +6,7 @@ module.exports = {
       colors:{
         primary:'#FF4747',
         secondary:'#FDB7B9',
+        blackCustom: '#151515'
       },
       fontFamily: {
         obold: ["OpenSansBold","sans-serif"],
